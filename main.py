@@ -4,13 +4,11 @@ Run on the Raspberry Pi: python3 main.py
 Required beside this file: encodings.pickle, models/model.tflite,
 models/labels.txt. Install dependencies in one Pi virtual environment.
 
-Starting points (cite these in your report):
+Starting points:
 https://github.com/carolinedunn/facial_recognition
 https://github.com/armaanpriyadarshan/TensorFlow-2-Lite-Object-Detection-on-the-Raspberry-Pi
 https://github.com/EdjeElectronics/TensorFlow-Lite-Object-Detection-on-Android-and-Raspberry-Pi
 
-This initial version displays results and logs CSVs. It does not record video,
-generate plots, or implement the assignment's image-quality assessment yet.
 """
 
 import argparse
